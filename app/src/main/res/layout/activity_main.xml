@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:id="@+id/linear">
+
+        <TextView
+            android:id="@+id/latestData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latest Data"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/grade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grade"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/berat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Berat"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/panjang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Panjang"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/lebar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lebar"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/tinggi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tinggi"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timestamp"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/machine_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Machine ID"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/photo_atas_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Photo Atas URL"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/photo_samping_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Photo Samping URL"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/timeupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timeupdate"
+            android:textSize="18sp"
+            android:padding="8dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
